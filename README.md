@@ -61,7 +61,10 @@ Those are front-end designs here and need matching endpoints before they can lea
    * Framework preset: **Vite** (or None)
    * Build command: `npm run build`
    * Build output directory: `dist`
-4. Save and deploy. Every push to `main` redeploys. The site is served at `https://<project-name>.pages.dev`.
+4. Save and deploy. Every push to `main` redeploys. The site is served at `https://<project-name>.pages.dev` or `.workers.dev`.
+
+If the project was created as a Worker (the deploy command is `npx wrangler deploy`), `wrangler.jsonc` in the repo root
+tells it to publish the `dist/` folder as a static single-page site, so no extra setup is needed.
 
 ## Link parameters
 
