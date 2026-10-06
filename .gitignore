@@ -1,0 +1,15 @@
+node_modules
+dist
+.env
+.env.*
+*.log
+.DS_Store
+.vite
+coverage
+
+# editor files
+.idea/
+.vscode/
+
+# handoff files for the portfolio build
+portfolio-handoff/
